@@ -12,9 +12,9 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipException;
 import java.util.zip.ZipOutputStream;
 
-import javax.json.Json;
-import javax.json.stream.JsonGenerator;
-import javax.ws.rs.core.StreamingOutput;
+import jakarta.json.Json;
+import jakarta.json.stream.JsonGenerator;
+import jakarta.ws.rs.core.StreamingOutput;
 
 import org.icatproject.ids.plugin.DsInfo;
 import org.icatproject.ids.plugin.MainStorageInterface;

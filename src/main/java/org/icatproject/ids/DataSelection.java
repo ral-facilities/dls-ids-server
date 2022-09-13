@@ -9,10 +9,10 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import javax.json.Json;
-import javax.json.JsonArray;
-import javax.json.JsonReader;
-import javax.json.JsonValue;
+import jakarta.json.Json;
+import jakarta.json.JsonArray;
+import jakarta.json.JsonReader;
+import jakarta.json.JsonValue;
 
 import org.icatproject.Datafile;
 import org.icatproject.ICAT;

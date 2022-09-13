@@ -17,12 +17,12 @@ import java.util.UUID;
 import java.util.concurrent.atomic.AtomicLong;
 import java.util.regex.Pattern;
 
-import javax.annotation.PostConstruct;
-import javax.ejb.EJB;
-import javax.ejb.Stateless;
-import javax.json.Json;
-import javax.json.stream.JsonGenerator;
-import javax.ws.rs.core.Response;
+import jakarta.annotation.PostConstruct;
+import jakarta.ejb.EJB;
+import jakarta.ejb.Stateless;
+import jakarta.json.Json;
+import jakarta.json.stream.JsonGenerator;
+import jakarta.ws.rs.core.Response;
 
 import org.icatproject.Datafile;
 import org.icatproject.ICAT;
