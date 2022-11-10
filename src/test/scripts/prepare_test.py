@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 from __future__ import print_function
 import sys
 import os
@@ -67,8 +67,8 @@ p = subprocess.Popen(["./setup", "-vvv", "install"], cwd="src/test/install",
     stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 #p.wait()
 out, err = p.communicate()
-print("./setup install stdout: " + out)
-print("./setup install stderr: " + err)
+print("./setup install stdout: " + out.decode())
+print("./setup install stderr: " + err.decode())
 rc = p.returncode
 if rc != 0:
     sys.exit(rc)
