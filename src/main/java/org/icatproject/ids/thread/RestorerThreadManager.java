@@ -6,8 +6,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-import javax.annotation.PreDestroy;
-import javax.ejb.Singleton;
+import jakarta.annotation.PreDestroy;
+import jakarta.ejb.Singleton;
 
 import org.icatproject.ids.CompletedRestoresManager;
 import org.icatproject.ids.FailedFilesManager;
