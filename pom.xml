@@ -4,7 +4,7 @@
 	<groupId>uk.ac.rl.esc</groupId>
 	<artifactId>ids.r2dfoo</artifactId>
 	<packaging>war</packaging>
-	<version>3.0.0</version>
+	<version>3.0.1-SNAPSHOT</version>
 	<name>IDS Server R2DFoo</name>
 
 	<description>Forked version of the original ICAT Data Service designed for Read-only, 2 level, Datafile based systems (hence R2DFoo).</description>
