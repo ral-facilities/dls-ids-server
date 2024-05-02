@@ -43,7 +43,7 @@ for f in glob.glob("src/test/install/*.war"):
     os.remove(f)
 
 with open("src/test/install/setup.properties", "wt") as f:
-    print("secure         = true", file=f)
+    print("secure         = false", file=f)
     print("container      = Glassfish", file=f)
     print("home           = %s" % containerHome, file=f)
     print("port           = 4848", file=f)
